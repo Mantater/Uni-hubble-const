@@ -1,0 +1,22 @@
+step 1:
+- determine optimal values of 𝛼 and 𝛽
+- determine their error
+- address correlation between them
+
+step 2:
+- Using the relationship between:
+	- apparent magnitude (ceph)
+	- absolute magnitude (ceph)
+	- extinction (star)
+	- distance (d_pc Earth)
+	obtain an optimal estimate of the ceph_d_pc +- ceph_d_pc_err, along with error
+
+𝑀=𝛼log10𝑃+𝛽
+𝑀=𝑚−5log10𝑑𝑝𝑐+5−𝐴
+
+𝛼log10𝑃+𝛽=𝑚−5log10𝑑𝑝𝑐+5−𝐴
+log10𝑑𝑝𝑐=(𝑚+5−𝐴-𝛼log10𝑃-𝛽)/5
+dpc = 10^((𝑚+5−𝐴-𝛼log10𝑃-𝛽)/5)
+
+step 3:
+v_rec = H0 * Dgal
